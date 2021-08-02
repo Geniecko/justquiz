@@ -1,0 +1,31 @@
+@import 'variables';
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    color: $font-color;
+}
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(178.83deg, $secondary-color -6.96%, $primary-color 60.91%);
+    padding: 0 $main-spacing;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+
+    @media (max-height: 550px) and (orientation: landscape) {
+        flex-direction: row;
+    }
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}

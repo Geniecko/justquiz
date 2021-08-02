@@ -1,0 +1,107 @@
+.information{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__hearts{
+        display: flex;
+        gap: 10px;
+        i{
+            font-size: 1.6rem;
+            color: $primary-color;
+        }
+    }
+
+    &__points{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-right: $main-spacing;
+        
+        i{
+            font-size: 1.6rem;
+            color: $primary-color;
+        }
+
+        span{
+            font-size: 2.1rem;
+            font-weight: 700;
+            color: $primary-color;
+        }
+    
+    }
+}
+
+.quiz{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__question{
+        margin: $main-spacing / 2 0;
+        width: 100%;
+        text-align: left;
+        border: 2px solid lighten($font-color, 50%);
+        padding: $main-spacing;
+        color: $font-color;
+        border-radius: 15px;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+
+        @media (max-height: 640px) and (orientation: landscape) {
+            width: 90%;
+        }
+    }
+
+    &__answers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: auto;
+        width: 100%;
+        gap: $main-spacing / 2;
+
+        @media (max-height: 640px) and (orientation: landscape) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            max-width: 550px;
+            padding: $main-spacing;
+            border: 2px solid lighten($font-color, 50%);
+            border-radius: 15px;
+            cursor: pointer;
+            transition:  .5s;
+            font-weight: 500;
+            
+            @media (max-height: 640px) and (orientation: landscape) {
+                flex-basis: 45%;
+            }
+
+            &:hover{
+                background-color: $primary-color;
+                color: white;
+                border-color: $primary-color;
+            }
+
+            span{
+                font-weight: 700;
+                color: $primary-color;
+                font-size: 1.2rem;
+                margin-right: $main-spacing / 2;
+            }
+        }
+    }
+}
+

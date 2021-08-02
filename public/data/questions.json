@@ -1,0 +1,99 @@
+{
+    "questions": [
+        {
+            "question":
+                "W którym roku Titanic zatonął na Oceanie Atlantyckim 15 kwietnia podczas dziewiczej podróży z Southampton?",
+            "a": "1932",
+            "b": "1907",
+            "c": "1893",
+            "d": "1912",
+            "correct": "d"
+        },
+        {
+            "question":
+                "Jak nazywa się największa firma technologiczna w Korei Południowej?",
+            "a": "Xiaomi",
+            "b": "Samsung",
+            "c": "Apple",
+            "d": "Motorolla",
+            "correct": "b"
+        },
+        {
+            "question": "Jaki jest najmniejszy ptak na świecie?",
+            "a": "Wrona",
+            "b": "Strzyżyk",
+            "c": "Koliber pszczół",
+            "d": "Dzięcioł",
+            "correct": "c"
+        },
+        {
+            "question": "Kto wynalazł puszkę do konserwowania żywności w 1810 roku?",
+            "a": "Józef Baranowski",
+            "b": "Paul Baran",
+            "c": "Jan Szczepanik",
+            "d": "Piotr Durand",
+            "correct": "d"
+        },
+        {
+            "question": "W którym roku po raz pierwszy ukazał się Ojciec chrzestny?",
+            "a": "1972",
+            "b": "1976",
+            "c": "1969",
+            "d": "1966",
+            "correct": "a"
+        },
+        {
+            "question":
+                "Który aktor zdobył nagrodę dla najlepszego aktora Oscara za filmy Filadelfia (1993) i Forrest Gump (1994)?",
+            "a": "Johnny Depp",
+            "b": "Tom Hanks",
+            "c": "George Clooney",
+            "d": "Harrison Ford",
+            "correct": "b"
+        },
+        {
+            "question": "Ilu graczy jest w olimpijskiej drużynie do curlingu?",
+            "a": "11",
+            "b": "4",
+            "c": "5",
+            "d": "7",
+            "correct": "b"
+        },
+        {
+            "question":
+                "Który kraj zdominował Letnie Igrzyska Olimpijskie w pływaniu synchronicznym z pięcioma złotymi medalami w 2000 roku?",
+            "a": "Polska",
+            "b": "Szwecja",
+            "c": "USA",
+            "d": "Rosja",
+            "correct": "d"
+        },
+        {
+            "question":
+                "Kto zrzucił na Księżyc młot i pióro, aby pokazać, że bez powietrza spadają w tym samym tempie?",
+            "a": "David R. Scott",
+            "b": "Steven Ford",
+            "c": "George Micheal",
+            "d": "Franklin Chang-Díaz",
+            "correct": "a"
+        },
+        {
+            "question":
+                "Gdybyś spadł na pozbawioną powietrza, pozbawioną tarcia dziurę, przechodząc przez Ziemię, ile czasu zajmie opadnięcie na drugą stronę?",
+            "a": "1h 6min",
+            "b": "13min",
+            "c": "42min",
+            "d": "34min",
+            "correct": "c"
+        },
+        {
+            "question":
+                "Gdzie na świecie wystawiana jest Mona Lisa Leonarda da Vinci?",
+            "a": "Francja",
+            "b": "Włochy",
+            "c": "Portugalia",
+            "d": "Watykan",
+            "correct": "a"
+        }
+    ]
+}

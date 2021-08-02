@@ -1,0 +1,8 @@
+html {
+    font-size:  $base-font-size - 2px;
+    font-family: $font-family;
+
+    @include media("small"){
+        font-size: $base-font-size;
+    }
+}

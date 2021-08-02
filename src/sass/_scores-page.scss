@@ -1,0 +1,49 @@
+.scores{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $main-spacing;
+
+    font-size: 2rem;
+    color: $primary-color;
+    font-weight: 700;
+    text-align:center;
+
+    i{
+        font-size: 3.5rem;
+        color: $secondary-color;
+    }
+
+    &__points{
+        font-size: 1.6rem;
+        span{
+            color: $secondary-color;
+            font-size: 2rem;
+        }
+    }
+}
+
+.users-score{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        max-width: 550px;
+        padding: $main-spacing;
+        background-color: $primary-color;
+        border-radius: 15px;
+        font-weight: 500;
+        color: white;
+        margin-top: $main-spacing;
+    }
+}
