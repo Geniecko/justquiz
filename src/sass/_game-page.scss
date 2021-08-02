@@ -43,6 +43,7 @@
     &__question{
         margin: $main-spacing / 2 0;
         width: 100%;
+        max-width: 550px;
         text-align: left;
         border: 2px solid lighten($font-color, 50%);
         padding: $main-spacing;

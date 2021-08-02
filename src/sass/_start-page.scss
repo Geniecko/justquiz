@@ -51,6 +51,7 @@
 
     @include media('large'){
         width: $max-width;
+        padding: 100px 0;
     }
 
     .wrapper{
